@@ -1,0 +1,380 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.clear:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
+img{
+ 	vertical-align:bottom;
+ }
+ .container{
+ 	width:1200px;
+ 	text-align:center;
+ 	margin:0 auto;
+ }
+ .fl{
+ 	float:left;
+ }
+ .fr{
+ 	float:right;
+ }
+ h1{ 
+ 	  float:left;
+ 	  display:inline-block;
+    font-size:40px;
+    font-family:Microsoft YaHei;
+    font-weight:bold;
+    color:rgba(0,164,255,1);
+    line-height:39px;
+    padding:33px 0px 29px 9px;
+ }
+ .header a{	  
+    font-size:18px;
+    font-weight:400;    
+    color:rgba(5,5,5,1); 
+ }
+ 
+ .header ul{
+  margin-left:75px;
+ }
+ .header li{
+ 	float:left;
+  padding:42px 8px 10px 8px;
+  margin-right:28px;
+ }
+.header li:hover{
+	border-bottom:2px solid rgba(0, 164, 255, 1.0);
+}
+ form{
+ 	padding-top:33px;	 
+ }
+ .form .search{
+ 	width:341px;
+ 	height:15px;
+ 	border:1px solid rgba(0,164,255,1);
+ 	padding:13px 0 12px 19px;
+  margin-left:160px;
+ }
+ .form .submit{
+ 	width:50px;
+ 	height:42px;
+ 	background:rgba(0, 164, 255, 1) url("../images/搜索 .png") no-repeat center center;
+  cursor:pointer;
+  border:none;
+}
+h2{
+    font-size:14px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+    float:right;
+    padding-top:15px;
+}
+.banner{	 	 
+    height:420px;
+    background:rgba(28,3,108,1) url(../images/banner2.png) no-repeat center center;
+}	 
+.banner ul{
+	background:rgba(0,0,0,0.3); 
+	width:180px;	
+  height:420px; 
+} 
+.banner li{
+  padding-left:10px;
+  text-align:left;
+  padding-top:20px;
+  padding-bottom:5px;
+  position:relative;
+}
+
+.banner a{	 
+   font-size:14px;    
+   font-weight:400;
+   color:white; 
+   padding-left:20px; 
+}
+.banner a:hover{
+	color:rgba(0,180,255,1);
+	
+}
+.banner .sign{
+  color:rgba(255,255,255,1);
+  position:absolute;
+  left:80%;
+}
+.banner .sign:hover{
+	
+	color:rgba(0,180,255,1);
+}
+.nav{
+	  width:1200px;
+    height:60px;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 2px 3px 0px rgba(118,118,118,0.2); 
+ 	  margin:0 auto;
+}
+.nav ul{
+}
+.nav li{
+	float:left;
+	border-right:1px solid rgba(191,191,191,1);
+  margin: 21px 0px;
+}
+.nav a{
+    font-size:16px;
+    color:black;
+    line-height:18px;
+    padding-right:30px;
+    padding-left:23px;
+}    
+.nav .first a{
+	color:rgba(0,164,255,1);
+	padding-left:30px;
+  font-weight:bold;
+}
+.nav .left{
+	border-right:none;
+}
+.nav .info {
+	float:right;	 
+	border-right:none;
+  padding-left:240px;
+}
+.nav .info a{	 
+    font-size:16px;   
+    font-weight:bold;
+    color:rgba(0,164,255,1);
+}
+.content{
+    background-color:rgb(243,245,247);
+} 
+.content .container{
+  position:relative;
+} 
+.content .all{
+  text-align:right;
+  font-size:12px;
+  line-height:13px;
+  color:rgba(165,165,165,1);
+  padding-top:45px;
+  padding-right:40px;
+}
+.content img{
+    width:228px;
+    height:155px;
+}
+.content li{
+	float:left;
+    padding-right:15px;
+    margin-bottom:15px;
+}
+.introduce{
+    width:228px;
+    height:115px;    
+    background:rgba(255,255,255,1);
+    box-shadow:0px 2px 3px 0px rgba(118,118,118,0.2); 
+}
+.content .last{
+    padding-right:0px;
+}
+p{
+   font-size:14px;
+   font-weight:400;
+   color:rgba(5,5,5,1);
+   line-height:20px;
+   position:relative;
+   padding:24px 20px 0px 23px;
+   text-align:left;
+}
+.high{    
+   font-size:12px;
+   font-weight:400;
+   color:rgba(255,124,45,1);
+}
+h4{
+    font-size:12px;
+    color:grey;
+    padding-top: 18px;
+    padding-left:23px;
+    text-align:left;
+}
+h3{
+    float:left;     
+    font-size:20px;
+    font-weight:400;
+    color:rgba(73,73,73,1);
+    padding:30px 0px 15px 0;
+}
+.nav2 .hot{
+    color:rgba(0,164,255,1);
+}
+.nav2 .last{
+  padding-left:300px;
+}
+.nav2 .look{
+  font-size:12px;
+}
+.nav2 a{
+    font-size:16px;
+    line-height:17px;
+    color:grey;
+}
+.nav2 .first {
+    padding-left:265px;   
+}
+.nav2 li{
+    width:82px;
+    padding-top:30px;
+}
+.nav3 .one img{
+    width:471px;
+    height:320px;
+    float:left;
+}
+.nav3 li{
+    float:left;
+    position:relative;
+}
+.nav3 img{
+  width:228px;
+  height:320px;
+  padding-bottom:73px;
+}
+.nav3 div{
+  height:122px;
+  width:228px;
+  background:rgba(0,0,0,0.5);
+  position:absolute;
+  top:50%;
+}
+.nav3 .graduate{
+  font-size:30px;
+  line-height:36px;
+  color:rgb(249,255,3);
+  text-align:left;
+}
+.nav3 h6{
+  font-size:27px;
+  line-height:36px;
+  color:rgb(255,255,255);
+  position:absolute;
+  top:25%;
+  padding-left:28px;
+  text-align:left;
+}
+.nav3 a{  
+  font-size:13px;
+  font-weight:400;
+  color:rgba(249,225,3,1);
+  line-height:20px;
+  border:1px solid rgba(249,225,3,1);
+  padding:6px 20px;
+  text-align:center;
+}
+.nav3 .first{
+  position:relative;
+}
+.nav3 .look{
+  position:absolute;
+  bottom:40%;
+}
+ 
+.nav3 .teacher{
+  font-size:18px;
+  line-height:20px;
+  color:white;
+  padding-right:13px;
+}
+h5{
+  font-size:14px;
+  color:white;
+  padding-top:21px;
+  padding-left:29px;
+  text-align:left;  
+}
+.nav3 p{
+  width:175px;
+  height:53px;
+  font-size:12px;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+  line-height:20px;
+  padding:11px 0px 0px 25px;
+}
+span .graduate{
+  font-size:30px;
+  color:rgba(249,225,3,1);
+  line-height:36px;
+}
+.footer {
+  height:417px;
+}
+.footer h1{
+  padding-top:124px;
+  padding-left:21px;
+}
+.footer p{
+  font-size:12px;
+  font-weight:400;
+  color:rgba(102,102,102,1);
+  line-height:18px;
+  padding-top:195px;
+  padding-left:21px;
+}
+.footer a{
+  font-size:16px;
+  color:rgba(0,164,255,1);
+  line-height:18px;
+  border:1px solid rgb(0,164,255);
+  padding:9px 27px;
+  text-align:center;
+}
+.footer .APP{
+  padding-top:44px;
+}
+.footer .first{
+    font-size:17px;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height:21px;
+    padding-bottom:15px;
+}
+.footer li{
+    font-size:12px;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height:21px;
+    text-align:left;
+}
+.footer .container{
+  position:relative;
+}
+.footer .one{
+  position:absolute;
+  left:646px;
+  top:129px;
+}
+.footer .two{
+  position:absolute;
+  left:871px;
+  top:129px;
+}
+.footer .three{
+  position:absolute;
+  left:1089px;
+  top:129px;
+}
